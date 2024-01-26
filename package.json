@@ -1,0 +1,20 @@
+{
+  "name": "heft-node-rig-tutorial",
+  "description": "Sample project using @rushstack/heft-node-rig",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "heft build --clean",
+    "test": "heft test --clean"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "^3.6.2",
+    "@rushstack/heft": "^0.64.3",
+    "@rushstack/heft-node-rig": "^2.4.5",
+    "@types/heft-jest": "1.0.6",
+    "@types/node": "18.17.15",
+    "typescript": "~5.3.3",
+    "eslint": "~8.7.0"
+  }
+}
